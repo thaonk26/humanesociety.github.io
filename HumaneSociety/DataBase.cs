@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    class Program
+    class DataBase
     {
-        static void Main(string[] args)
+        List<Adopter> adopter;
+        //public string AddAdopter()
+        //{
+            
+            
+        //}
+        public void ShowInventory()
         {
-            HumaneSociety humaneSociety = new HumaneSociety();
-            humaneSociety.RunShelter();
+
         }
     }
 }

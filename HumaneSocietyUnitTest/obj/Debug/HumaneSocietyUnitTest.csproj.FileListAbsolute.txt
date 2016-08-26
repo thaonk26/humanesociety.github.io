@@ -1,0 +1,7 @@
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSocietyUnitTest\obj\Debug\HumaneSocietyUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSocietyUnitTest\bin\Debug\HumaneSocietyUnitTest.dll
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSocietyUnitTest\bin\Debug\HumaneSocietyUnitTest.pdb
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSocietyUnitTest\obj\Debug\HumaneSocietyUnitTest.dll
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSocietyUnitTest\obj\Debug\HumaneSocietyUnitTest.pdb
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSocietyUnitTest\bin\Debug\HumaneSociety.exe
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSocietyUnitTest\bin\Debug\HumaneSociety.pdb

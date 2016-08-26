@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    class Program
+    class CashDrawer
     {
-        static void Main(string[] args)
+        private int currentMoney;
+        public void AddMoney()
         {
-            HumaneSociety humaneSociety = new HumaneSociety();
-            humaneSociety.RunShelter();
+            currentMoney = currentMoney + 2;
         }
     }
 }

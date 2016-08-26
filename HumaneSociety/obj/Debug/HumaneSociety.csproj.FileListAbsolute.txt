@@ -1,1 +1,6 @@
 C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSociety\bin\Debug\HumaneSociety.exe.config
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSociety\bin\Debug\HumaneSociety.exe
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSociety\bin\Debug\HumaneSociety.pdb
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSociety\obj\Debug\HumaneSociety.csprojResolveAssemblyReference.cache
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSociety\obj\Debug\HumaneSociety.exe
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 2\HumaneSociety\HumaneSociety\obj\Debug\HumaneSociety.pdb
