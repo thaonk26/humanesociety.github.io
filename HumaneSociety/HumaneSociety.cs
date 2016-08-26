@@ -7,13 +7,15 @@ using System.Threading.Tasks;
 namespace HumaneSociety
 {
     class HumaneSociety
-    {
-        UserInterface ui = new UserInterface();
+    {        
         CashDrawer cashDrawer;
         DataBase dataBase;
         public void RunShelter()
         {
-            ui.Decision();
+            cashDrawer = new CashDrawer();
+            dataBase = new DataBase();
         }
+            
     }
+    
 }

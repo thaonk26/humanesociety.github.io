@@ -8,19 +8,15 @@ namespace HumaneSociety
 {
     class Cage
     {
-        //Animal animal = new Animal();
-        //public string Name { get; set; }
-        //public int Age { get; set; }
-        //public bool Shots { get; set; }
-        //public string Breed { get; set; }
-        //public string Color { get; set; }
-        //public Cage(string name, int age, bool shots, string breed, string color)
-        //{
-        //    Name = name;
-        //    Age = age;
-        //    Shots = shots;
-        //    Breed = breed;
-        //    Color = color;            
-        //}
+        Animal animal;
+        public int numberOfCages;
+        public Cage(int NumberOfCages)
+        {
+            numberOfCages = NumberOfCages;
+        }
+        public void GetAnimal()
+        {
+            int animalPrice = 20;
+        }
     }
 }

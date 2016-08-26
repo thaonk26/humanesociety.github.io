@@ -199,84 +199,6 @@
             </relationshipOwnedElementsInternal>
           </association>
           <association
-            Id="2b214fe0-4fd0-4c13-a7db-e55129a02e7e"
-            isDerived="false"
-            sourceEndRoleName="HumaneSociety"
-            targetEndRoleName="WriteFile"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="c28ec4b1-22a1-4bef-b404-d3e9a628e4f2"
-              LastKnownName="WriteFile"
-              LastKnownLocation="HumaneSocietyModelingProject.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="2f9f1061-243b-4eef-bce9-fd99b71b4cf4"
-                  name="HumaneSociety"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="0b7e10ca-ae58-4c73-93c3-26a1b1b69d79"
-                  name="WriteFile"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-          <association
-            Id="63fc1631-1f3f-481c-80ab-0addd018a145"
-            isDerived="false"
-            sourceEndRoleName="HumaneSociety"
-            targetEndRoleName="ReadFile"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="cd823fc4-bc24-4d30-b605-12a37bea089b"
-              LastKnownName="ReadFile"
-              LastKnownLocation="HumaneSocietyModelingProject.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="8b1652c0-904d-4ba2-ac48-b66dce8c157a"
-                  name="HumaneSociety"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="01c4a260-1a6f-4604-8134-08d54b8c85ba"
-                  name="ReadFile"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-          <association
             Id="5e582aa4-3e01-4eba-aa7c-26f5501046d1"
             isDerived="false"
             sourceEndRoleName="HumaneSociety"
@@ -316,20 +238,20 @@
             </relationshipOwnedElementsInternal>
           </association>
           <association
-            Id="c6fabbdf-4075-471e-ab27-5885581442ea"
+            Id="862b7e04-d51a-4768-be59-4c7a4b3d3ca3"
             isDerived="false"
             sourceEndRoleName="HumaneSociety"
-            targetEndRoleName="UserInterface"
+            targetEndRoleName="ReadFile"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
-              Id="b3ada010-b513-419a-b9f1-53a7edbec7de"
-              LastKnownName="UserInterface"
+              Id="cd823fc4-bc24-4d30-b605-12a37bea089b"
+              LastKnownName="ReadFile"
               LastKnownLocation="HumaneSocietyModelingProject.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="f0c2c207-7368-4d00-910d-2f50d4d5a3b1"
+                  Id="cc188107-217f-449c-bde4-ef77e01e34d3"
                   name="HumaneSociety"
                   isLeaf="false"
                   isStatic="false"
@@ -342,8 +264,47 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="b3812cb2-a16d-4a53-b20f-67ea7af0a683"
-                  name="UserInterface"
+                  Id="f39fb0cc-2938-404a-824b-311d20096bf4"
+                  name="ReadFile"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2b9bf6ad-a76c-4255-9524-d68030946aa8"
+            isDerived="false"
+            sourceEndRoleName="HumaneSociety"
+            targetEndRoleName="WriteFile"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c28ec4b1-22a1-4bef-b404-d3e9a628e4f2"
+              LastKnownName="WriteFile"
+              LastKnownLocation="HumaneSocietyModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59150ecf-776d-4a55-a624-c44137578eb2"
+                  name="HumaneSociety"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4c1310db-423a-4646-b6a1-5908ed6a3d32"
+                  name="WriteFile"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -436,6 +397,30 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="67954a61-32e4-4644-aea6-c93050e85f4c"
+            name="Decision"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="89b65fdc-df9d-4c6e-bc22-76b15eacd28d"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="7a96ae4e-bd2f-4cba-93c0-65236ba5b027"
+                      LastKnownName="void"
+                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -478,6 +463,47 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="dd232245-82f6-4ba2-a40b-fbfa510e8a71"
+            isDerived="false"
+            sourceEndRoleName="Adopter"
+            targetEndRoleName="CashDrawer"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="9655a120-7914-439a-ac3c-1271a02ad987"
+              LastKnownName="CashDrawer"
+              LastKnownLocation="HumaneSocietyModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="271c3588-82ca-4ed6-8c5f-7310dfa537fc"
+                  name="Adopter"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="383e7b3e-7406-44a9-b947-244814fb3b64"
+                  name="CashDrawer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="f5af3c16-912d-4ea0-b0a9-06d5e8dadd2e"
@@ -512,6 +538,24 @@
               <undefinedTypeMoniker
                 Id="d1aa3fb1-7a1d-456d-baf9-13248f3e9c42"
                 LastKnownName="string"
+                LastKnownLocation="HumaneSocietyModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b0154d46-c22f-402d-ba39-479cf35d0b8c"
+            name="cashDrawer"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="9655a120-7914-439a-ac3c-1271a02ad987"
+                LastKnownName="CashDrawer"
                 LastKnownLocation="HumaneSocietyModelingProject.uml" />
             </type_NamedElement>
           </property>
@@ -738,56 +782,6 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation
-            Id="828a180b-7e3a-4e77-aaa8-305e0e69b038"
-            name="CageSetOne"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="086d5e93-79ae-4bd3-9703-5347b77d0ece"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="7a96ae4e-bd2f-4cba-93c0-65236ba5b027"
-                      LastKnownName="void"
-                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="eeb10049-df26-4986-8204-f55b373a3cd4"
-            name="CageSetTwo"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="4a5cf036-6bc7-43d9-99e1-2e634975a6cb"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="7a96ae4e-bd2f-4cba-93c0-65236ba5b027"
-                      LastKnownName="void"
-                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -964,6 +958,88 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="bb6e1ae2-5e9f-46a8-9678-5d613da020d5"
+            name="Dog"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c98d1bd1-bdeb-469b-8234-0b91d67888ce"
+                  name="name"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d1aa3fb1-7a1d-456d-baf9-13248f3e9c42"
+                      LastKnownName="string"
+                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0b955b98-4530-447e-ae5d-2d1ba7533a3a"
+                  name="shots"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="35865288-7ab6-4920-b515-8cc470df7851"
+                      LastKnownName="bool"
+                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f8cd525a-1dc9-44c1-9fd4-53273fa473fd"
+                  name="foodAmount"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="e2aacea6-af41-402f-b5cd-ec0739ea2a6c"
+                      LastKnownName="int"
+                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa1f48b2-d894-4ff5-86d5-4df8299d1920"
+                  name="price"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="e2aacea6-af41-402f-b5cd-ec0739ea2a6c"
+                      LastKnownName="int"
+                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4bff6ece-7f1d-433e-b92f-0533af87a4d3"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="7a96ae4e-bd2f-4cba-93c0-65236ba5b027"
+                      LastKnownName="void"
+                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -1076,6 +1152,45 @@
                 <memberEnd
                   Id="3d712d3b-f89e-45cc-a02e-ed2a14f158b1"
                   name="Cage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="375e5223-9b44-4604-a754-7988c27c9d6b"
+            isDerived="false"
+            sourceEndRoleName="DataBase"
+            targetEndRoleName="UserInterface"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b3ada010-b513-419a-b9f1-53a7edbec7de"
+              LastKnownName="UserInterface"
+              LastKnownLocation="HumaneSocietyModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c799378c-da39-4d3b-82be-ffc9f5147585"
+                  name="DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c9bb9976-0482-4e02-96fc-0f28c06d3e9e"
+                  name="UserInterface"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -1397,30 +1512,6 @@
         isActiveClass="false">
         <ownedOperationsInternal>
           <operation
-            Id="0dc28bf3-e65f-42aa-b8d0-2c1b78b928ff"
-            name="Decision"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="24d9a837-ab1b-4b3a-b22c-a91bd20b1efb"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="7a96ae4e-bd2f-4cba-93c0-65236ba5b027"
-                      LastKnownName="void"
-                      LastKnownLocation="HumaneSocietyModelingProject.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="a02bc63b-c688-41e5-8419-abe046d08ec0"
             name="AdoptAPet"
             isLeaf="false"
@@ -1485,6 +1576,134 @@
       <undefinedType
         Id="f87c72e7-9a1b-4f20-8e29-0037c4a3ffb5"
         name="Cage&lt;&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d0961f17-e6b8-472a-a21d-faaee3c73380"
+        name="Main"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="cf56c084-f218-435c-bcf6-4842af0e7c64"
+            isDerived="false"
+            sourceEndRoleName="Main"
+            targetEndRoleName="HumaneSociety"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="029455bf-5344-4dd6-8f2a-5839afaf3934"
+              LastKnownName="HumaneSociety"
+              LastKnownLocation="HumaneSocietyModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="79379bd8-c508-49f1-b0dd-e5a3447ffd77"
+                  name="Main"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a134e6e0-ed79-4356-a80e-08905464c4d1"
+                  name="HumaneSociety"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1d122b5d-5fef-44af-9ed2-86ee147d668c"
+            isDerived="false"
+            sourceEndRoleName="Main"
+            targetEndRoleName="ReadFile"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="cd823fc4-bc24-4d30-b605-12a37bea089b"
+              LastKnownName="ReadFile"
+              LastKnownLocation="HumaneSocietyModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="40241df0-8826-40b7-b0b6-b59bcebaf2ff"
+                  name="Main"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5171d1c4-34c2-4f81-8cdd-77bcd9471705"
+                  name="ReadFile"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="84db7cbd-24e4-440f-8880-fcb9eec49f22"
+            isDerived="false"
+            sourceEndRoleName="Main"
+            targetEndRoleName="WriteFile"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c28ec4b1-22a1-4bef-b404-d3e9a628e4f2"
+              LastKnownName="WriteFile"
+              LastKnownLocation="HumaneSocietyModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d705222f-1ed9-4674-ac45-d84110a94422"
+                  name="Main"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b9661ec7-db06-485c-abae-5af912609ccf"
+                  name="WriteFile"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

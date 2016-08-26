@@ -8,31 +8,16 @@ namespace HumaneSociety
 {
     class UserInterface
     {
-        Adopter adopter;
-        DataBase dataBase;
-        Dog dog;
-        public void Decision()
-        {
-            Console.WriteLine("Hello there! Welcome to Nathan's Humane Center");
-            Console.WriteLine("Would you like to Adopt a pet or Donate a pet?");
-            string answer = Console.ReadLine();
-            if (answer == "adopt")
-            {
-                dataBase.ShowInventory();
-                AdoptAPet();
-            }else
-            {
-                DonateAPet();
-            }
-        }
+        
+        
         public Adopter AdoptAPet()
         {
             
             Console.WriteLine("Can I get your name?");
-            adopter.name = Console.ReadLine();
+            string name = Console.ReadLine();
             Console.WriteLine("We have a variety of Cats and Dogs\nWhat kind of pet would you like to adopt today?");
-            adopter.petPreference = Console.ReadLine();
-            switch (adopter.petPreference)
+            string petPreference = Console.ReadLine();
+            switch (petPreference)
             {
                 case "dog":
                     return null;

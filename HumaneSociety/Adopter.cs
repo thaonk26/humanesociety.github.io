@@ -10,14 +10,14 @@ namespace HumaneSociety
     {
         public string name;
         public string petPreference;
-        List<Animal> animal;
+        
         public Adopter()
         {
             
         }
         public void AdoptingPet()
         {
-            animal = new List<Animal>();
+            
 
         }
     }

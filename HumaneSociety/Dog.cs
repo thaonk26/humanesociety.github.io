@@ -8,24 +8,11 @@ namespace HumaneSociety
 {
     class Dog : Animal
     {
-        public string breed { get; set; }
-        public string color { get; set; }
-        public Dog(string Name, int Age, bool Shots, string Breed, string Color) : base(Name, Age, Shots)
+
+        public Dog(string Name, int Age, bool Shots, string Breed, string Color) : base(Name, Age, Shots, Breed, Color)
         {
-            breed = Breed;
-            color = Color;
+
         }
         
-        public string SetBreed()
-        {
-            Console.WriteLine("What is the breed");
-            breed = Console.ReadLine();
-            return breed;
-        }
-        public int SetPrice()
-        {
-            int price = age * 50;
-            return price;
-        }
     }
 }
