@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="c0e63219-3c9b-4680-8c26-87f9321a81f0" name="HumaneSociety" linkedPackageId="e024ba55-de7e-4432-b7a0-bea0c2e778dc" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="af66164a-6ac2-4a80-a17d-995fd6cd5f49">
+      <profileInstance Id="1eea143e-424c-45af-ace3-53cbb21d7d8d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="53036665-4039-4832-a282-d434ddd95ba9">
+      <profileInstance Id="73af0875-8915-4d0a-a316-425fded95433" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5ae1082c-3fd8-4cef-9396-e0ec424c59b4" name="HumaneSociety" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="029455bf-5344-4dd6-8f2a-5839afaf3934" />
+        <targetEnds>
+          <association Id="4ca5cb85-4215-477c-9582-d60ac8d93ef9" isDerived="false" sourceEndRoleName="HumaneSociety" targetEndRoleName="Inventory" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8c93f018-baac-4e0e-a4e4-5482803aab33" LastKnownName="DataBase" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b726da18-4323-429a-a37c-026160e64918" name="HumaneSociety" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0c7eb8d5-9f80-4d5f-b3b0-ed20ee765330" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="88f1154e-5b1e-4a9e-9eba-653f42dfd0f5" name="Inventory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5d6594a8-9d45-4c4a-9d91-4f0d9917c875" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9f2e71a2-7a3d-4b7b-b6bd-f679f55c7125" />
+          </association>
+          <association Id="d57c8f11-a519-4af8-a6bb-2ca3f3debae9" isDerived="false" sourceEndRoleName="HumaneSociety" targetEndRoleName="CashDrawer" isLeaf="false" isAbstract="false">
+            <classMoniker Id="39c2de76-40e8-4cf1-b04d-f8b3c1b2ce87" LastKnownName="CashDrawer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="66c10040-f5a0-4add-9bbe-72d0bab031b5" name="HumaneSociety" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="27b676c4-4710-4171-a213-5d738d833f3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="19098e39-87cd-4382-a6a8-c2e8c29bac40" name="CashDrawer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bde92ff9-e7da-41b3-a83d-c27c67530a65" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1630bfaa-66e9-4c6b-9e13-1523c6a2579c" />
+          </association>
+          <association Id="33b99571-9a73-4e11-8780-874d53ffeb95" isDerived="false" sourceEndRoleName="HumaneSociety" targetEndRoleName="WriteFile" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2d8400fa-4118-4259-b348-f913ae1bcbb6" LastKnownName="WriteFile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a17de744-ea4d-4173-a4ef-1b3262032e41" name="HumaneSociety" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2f9f1061-243b-4eef-bce9-fd99b71b4cf4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd4bec06-02be-425c-9739-50f36b88b50c" name="WriteFile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0b7e10ca-ae58-4c73-93c3-26a1b1b69d79" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2b214fe0-4fd0-4c13-a7db-e55129a02e7e" />
+          </association>
+          <association Id="82ec2a22-84ca-4b6e-913f-afacaa978ea6" isDerived="false" sourceEndRoleName="HumaneSociety" targetEndRoleName="ReadFile" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fb8ef2c6-6b7a-43d9-8b66-6a31633b0dfa" LastKnownName="ReadFile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="003f411f-2469-4a77-afd5-653073a064ee" name="HumaneSociety" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8b1652c0-904d-4ba2-ac48-b66dce8c157a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1cd9fc56-ebc2-4d31-9d70-5610fa3e0c8c" name="ReadFile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="01c4a260-1a6f-4604-8134-08d54b8c85ba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="63fc1631-1f3f-481c-80ab-0addd018a145" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="58d0e40b-5072-4686-a363-66bc8f5dcb25" name="Adopter" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="139298aa-f7f7-47a9-bcdc-d392edeae817" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="39c2de76-40e8-4cf1-b04d-f8b3c1b2ce87" name="CashDrawer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9655a120-7914-439a-ac3c-1271a02ad987" />
+        <ownedAttributesInternal>
+          <property Id="59a77841-462f-4a7e-9b5d-66955e70c31c" name="money" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d329e2f6-296b-4503-a7b6-df9c44c72b8a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bdf3c8f6-a562-42cd-8f8c-082f7e956ce0" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="4cd6dc7d-191f-40e9-b89b-02c8a66558d0" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cf15ff53-fd3f-48a9-aba3-98a798d74f11" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5722ed41-39b7-4b1e-93c9-735c5c5fe919" name="Animal" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2705ddd9-dba1-47ff-bb1d-d62c16812410" />
+        <ownedAttributesInternal>
+          <property Id="f6a6d90b-2e80-439d-ac0f-7565318637a4" name="shots" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f5c92973-4131-4c47-91a0-8de9371a1d82" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e830fbb7-d0e5-4df1-bb5b-4030cadb3e34" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+          <property Id="6db540c8-d80a-4a23-a6de-76cd41ae6b7c" name="name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d4f3a5e4-74af-4912-bd1d-07ee65014a7c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="30652774-3b1c-4231-a9dd-9e49a0892d14" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="52590e7e-ff73-43b8-8914-91d3a10ec4ac" name="age" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="006e3f0d-b842-4a79-88ce-5675e5bcda05" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bdf3c8f6-a562-42cd-8f8c-082f7e956ce0" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="619746aa-f0af-4974-96d7-92784553c14f" name="price" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="34b29919-1522-4b25-ac59-a83e82443e0d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bdf3c8f6-a562-42cd-8f8c-082f7e956ce0" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="79e0c380-fde1-4ff8-94dd-77096009e6f9" name="Cage" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6405b659-778c-4cf8-abcc-c2ad585b19cc" />
+        <targetEnds>
+          <association Id="19f62656-dc69-49dc-a2de-ea6448c31bcf" isDerived="false" sourceEndRoleName="Cage" targetEndRoleName="Animal" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5722ed41-39b7-4b1e-93c9-735c5c5fe919" LastKnownName="Animal" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="57c0bff5-f563-4327-bdad-c87336ba1563" name="Cage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d9e453a6-e191-45af-acaa-07e6c8d72d6e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dedc9556-0b99-4327-a732-76d8740c707b" name="Animal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4b51e6fe-0caf-4874-b411-c8b3bc7254ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2ac56222-3817-4a34-aedf-868de7a34871" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="a6d08963-e5f7-45e6-bc38-67f5e598b470" name="animal" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="28a64f36-1184-4d64-b0db-aa4806a121eb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="64ef736f-6d7c-4fd8-a77b-5bb1c283f85b" LastKnownName="Animal" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3c2858de-730e-47b7-a59e-731f9dc4cafc" name="Food" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="873bafd6-75c6-4224-9702-992b34596223" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2d8400fa-4118-4259-b348-f913ae1bcbb6" name="WriteFile" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c28ec4b1-22a1-4bef-b404-d3e9a628e4f2" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fb8ef2c6-6b7a-43d9-8b66-6a31633b0dfa" name="ReadFile" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cd823fc4-bc24-4d30-b605-12a37bea089b" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e5684240-86c5-4f9e-be88-c2a3d97cbb14" name="Cat" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="028a08a9-6b4c-4f7c-9f29-4cfeb0b37c0a" />
+        <generalsInternal>
+          <generalization Id="54c82cef-6736-4862-8487-0566f62e38c1" isSubstitutable="false">
+            <classMoniker Id="5722ed41-39b7-4b1e-93c9-735c5c5fe919" LastKnownName="Animal" />
+            <elementDefinition Id="92103a3c-74a3-4855-879d-2a0bfc856982" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="371829b4-15a9-4395-86bb-26576500f968" name="breed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4c361c3e-5858-4e08-9b74-82327efd5e68" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="30652774-3b1c-4231-a9dd-9e49a0892d14" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c4fbe3c8-d5c0-4a91-b12a-4acfd9b7eff4" name="Dog" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="044f68fd-a032-49b1-8fef-944ef740e724" />
+        <generalsInternal>
+          <generalization Id="6734331a-6f5b-479e-8781-7a739eaad284" isSubstitutable="false">
+            <classMoniker Id="5722ed41-39b7-4b1e-93c9-735c5c5fe919" LastKnownName="Animal" />
+            <elementDefinition Id="0e04a414-4ad1-4b66-8827-d61ba82b1dc6" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="f30950af-53c8-4e1c-a476-7c091a8926b5" name="breed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="23c8bd3a-99e3-40b3-9450-9a0ad95744ff" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="30652774-3b1c-4231-a9dd-9e49a0892d14" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="e830fbb7-d0e5-4df1-bb5b-4030cadb3e34" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="35865288-7ab6-4920-b515-8cc470df7851" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bdf3c8f6-a562-42cd-8f8c-082f7e956ce0" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="e2aacea6-af41-402f-b5cd-ec0739ea2a6c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="30652774-3b1c-4231-a9dd-9e49a0892d14" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="d1aa3fb1-7a1d-456d-baf9-13248f3e9c42" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="64ef736f-6d7c-4fd8-a77b-5bb1c283f85b" name="Animal" isAbstract="false" isLeaf="false" cachedFullName="HumaneSocietyModelingProject::Animal">
+        <elementDefinition Id="2705ddd9-dba1-47ff-bb1d-d62c16812410" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8c93f018-baac-4e0e-a4e4-5482803aab33" name="DataBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b9014f09-f737-4d11-8a87-182155e93f47" />
+        <targetEnds>
+          <association Id="f36c2c1e-4042-439d-a5a8-aed2cfad9a97" isDerived="false" sourceEndRoleName="Inventory" targetEndRoleName="Adopter" isLeaf="false" isAbstract="false">
+            <classMoniker Id="58d0e40b-5072-4686-a363-66bc8f5dcb25" LastKnownName="Adopter" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b256679-9136-4fdd-9c8a-19532cdc5038" name="Inventory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="828cabc8-f315-4063-aea8-ffa3f7a40453" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7c8f239b-5252-405f-9bdd-e26902030798" name="Adopter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="40c996bd-34d9-4c24-848b-4c3b092b3a74" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fcbb3ad5-40e1-4e59-b325-1b4da0ffd075" />
+          </association>
+          <association Id="0605441a-cfd4-4738-aef0-f05bf02ebdc4" isDerived="false" sourceEndRoleName="DataBase" targetEndRoleName="Room" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f8994144-eb11-4158-bd3e-dcee2b918cd4" LastKnownName="Room" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0e5eb121-2cae-4419-8a32-0361fdd261a5" name="DataBase" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="24d5fee0-c1a7-437b-b4c6-1e92c71a901a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c033037d-e6f2-4800-b49d-16e3bf5d42f5" name="Room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d9cac9ff-3fb1-4276-9323-44d319d55030" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7ef9f750-c91b-4c69-b0f5-d08784055218" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="88e481f7-fd0f-438b-a41d-d327438f2959" name="adopter" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="17c624d1-4e17-4e1f-890b-80e2fb5b041a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6a9b3752-7287-49d9-b8ff-d7460724844b" LastKnownName="Adopter" />
+            </type_NamedElement>
+          </property>
+          <property Id="313ddba4-9272-4c7e-84f8-4c7f0134fb45" name="room" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b5813f7c-c5ec-4dfa-b7f1-490a1efc2681" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1877bdc9-1cda-4249-aa33-8d90f5b59000" LastKnownName="Room" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f8994144-eb11-4158-bd3e-dcee2b918cd4" name="Room" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5b286809-f51b-4cfb-9f88-e1731135ac8f" />
+        <targetEnds>
+          <association Id="40539bd2-aa43-44d0-b1ef-29b490dafbc5" isDerived="false" sourceEndRoleName="Room" targetEndRoleName="Cage" isLeaf="false" isAbstract="false">
+            <classMoniker Id="79e0c380-fde1-4ff8-94dd-77096009e6f9" LastKnownName="Cage" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="492205a0-c758-4715-a455-5d68e33c00e6" name="Room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ca4a429c-9a92-40b8-b6d9-2d74aca958cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b30510ff-cfb4-460b-8b18-466dfe8c6ddf" name="Cage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="38faa151-dc73-4368-bf10-2769598e87e7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="61e2055d-5afc-4dfc-bc71-a3111356ef03" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="3a820c04-295b-4810-ada8-572d6956c1ab" name="cage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="103833f3-732d-4393-a2d6-9be18d4da684" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c150dec4-9daa-4866-94ac-1d922dde2f95" LastKnownName="Cage" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="dfa69559-7c93-44bc-b1af-ca7aceac5054" name="RoomOne" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fd2588a1-f8cc-4f9c-ae43-beec5fb12896" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="93ca092e-ddaf-4045-a3c7-86d8caaf903c" direction="Return">
+                  <elementDefinition Id="907d5c2e-f15e-4fe2-98e7-71663ba60559" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7ce047c7-8d3b-40dc-8bcc-bbff68d43d38" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="a035eedf-0e6c-4e42-a195-f63142c10d9c" name="RoomTwo" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0c243fa6-ad87-42e3-bc56-64576ea361d2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5d08c261-8fc1-49e3-88d6-3392c4fa381a" direction="Return" isUnique="false">
+                  <elementDefinition Id="bf1bccc5-113c-4b13-8004-dda4a8b69c6a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7ce047c7-8d3b-40dc-8bcc-bbff68d43d38" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d2afb82b-de31-4094-a2b0-182e5497a59e" name="RoomThree" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fb6ab10d-da52-46c1-87e2-df0414926c13" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8fac9bab-2bc0-4b23-aa0e-2dc81be67851" direction="Return" isUnique="false">
+                  <elementDefinition Id="540b2bde-7ab4-4f6a-9037-c515cdcb13cf" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7ce047c7-8d3b-40dc-8bcc-bbff68d43d38" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="7ce047c7-8d3b-40dc-8bcc-bbff68d43d38" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="7a96ae4e-bd2f-4cba-93c0-65236ba5b027" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c150dec4-9daa-4866-94ac-1d922dde2f95" name="Cage" isAbstract="false" isLeaf="false" cachedFullName="HumaneSocietyModelingProject::Cage">
+        <elementDefinition Id="6405b659-778c-4cf8-abcc-c2ad585b19cc" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6a9b3752-7287-49d9-b8ff-d7460724844b" name="Adopter" isAbstract="false" isLeaf="false" cachedFullName="HumaneSocietyModelingProject::Adopter">
+        <elementDefinition Id="139298aa-f7f7-47a9-bcdc-d392edeae817" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1877bdc9-1cda-4249-aa33-8d90f5b59000" name="Room" isAbstract="false" isLeaf="false" cachedFullName="HumaneSocietyModelingProject::Room">
+        <elementDefinition Id="5b286809-f51b-4cfb-9f88-e1731135ac8f" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e024ba55-de7e-4432-b7a0-bea0c2e778dc" name="HumaneSocietyModelingProject">
+    <elementDefinition Id="91eec8f0-a58d-42a6-8d21-cfeb67b160f5" />
+  </package>
+</logicalClassDesignerModel>
